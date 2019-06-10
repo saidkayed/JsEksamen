@@ -1,0 +1,22 @@
+{
+  "name": "restmongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node run.js",
+      "dev": "nodemon run.js",
+      "makeData": "node mongoDemos/mongoGameData.js",
+      "query": "node mongoDemos/geoQueries.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "geojson-utils": "^1.1.0",
+    "mongoose": "^5.5.14",
+    "node-fetch": "^2.6.0"
+  }
+}
