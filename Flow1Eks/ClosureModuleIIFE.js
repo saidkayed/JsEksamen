@@ -22,5 +22,6 @@ console.log(name);
 function module(){
     var price = 200;
 }
+
 //undefined because price is defined in a private scope
 //console.log(price);
